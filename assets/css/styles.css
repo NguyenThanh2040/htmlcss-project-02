@@ -71,6 +71,22 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+.break-all {
+    word-break: break-all;
+}
 /* Header */
 
 .header {
@@ -355,6 +371,7 @@ a {
 }
 
 .popular .course-item .title a {
+    margin-right: 0.6rem;
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
