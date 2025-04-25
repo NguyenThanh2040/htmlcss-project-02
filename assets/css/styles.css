@@ -752,6 +752,11 @@ a {
 
 .footer .list .fid {
     width: 23.1rem;
+    display: inline-block;
+    margin-bottom: 1.2rem;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
 }
 
 .footer .copyright {
