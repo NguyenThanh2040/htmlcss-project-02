@@ -84,6 +84,10 @@ a {
     --line-clamp: 2;
 }
 
+.line-clamp.line-3 {
+    --line-clamp: 3;
+}
+
 .break-all {
     word-break: break-all;
 }
@@ -490,4 +494,73 @@ a {
 .feedback-item .content .open-quotes {
     width: 3rem;
     line-height: 2.8rem;
+}
+
+/* Features */
+.features {
+    margin-top: 13.5rem;
+    padding: 6.5rem 0;
+}
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .images {
+    display: flex;
+    gap: 0 3rem;
+}
+
+.features .images img {
+    width: 27rem;
+    height: 40.4rem;
+    object-fit: cover;
+    border-radius: 1.6rem;
+}
+
+.features .images img:first-child {
+    margin-top: 3.4rem;
+}
+
+.features .content {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.features .content .desc {
+    margin-top: 1.6rem;
+    width: 45.8rem;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+
+.features .content .cta-btn {
+    margin-top: 3.2rem;
+    min-width: 13.7rem;
+}
+
+.features .content .cta-btn:hover {
+    background-color: #ffb900;
+}
+
+/* Features-nd2 */
+.features-nd2 {
+    margin-top: 7rem;
+}
+
+.features-nd2 .body {
+    flex-direction: row-reverse;
+}
+
+.features-nd2 .content {
+    width: 49%;
+}
+
+.features-nd2 .images img {
+    width: 47rem;
+    height: 44rem;
 }
